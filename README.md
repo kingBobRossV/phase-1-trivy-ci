@@ -11,6 +11,27 @@ Create a GitHub Actions pipeline that automatically scans Docker images for vuln
 
 ## Steps
 
+*Ref 1: Cloned code to local machine from Github*
+
+
+
+*Ref 2: Built a Minimal Python Web App*
+  - Built a Minimal Python Web App
+    - Used Flask to create a lightweight HTTP server
+    - Added a route (/) that makes an external request using the requests library
+    - Simple structure makes it easy to containerize and scan
+
+
+   
+*Ref 3: Created requirements.txt file*
+  - The requirements.txt file defines the app's dependencies so they can be installed consistently across environments. It includes a known vulnerable version of requests to test Trivy's ability to detect outdated packages.
+
+
+
+*Ref 4: 
+
+
+
 
 
 ## ✅ Outcome
